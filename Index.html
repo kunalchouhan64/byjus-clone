@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <title>BYJU : Clone Website</title>
+</head>
+
+<body>
+    <!-- Our Hero Section  -->
+    <section class="Hero-Section h-[128.6vh] bg-fuchsia-600">
+        <nav class="py-6 px-36 flex justify-around space-x-4">
+            <!-- Our logo div  -->
+            <div>
+                <a href="/Index.html"><img src="/Images/navbar-logo.svg" class="h-[2.35rem]" alt="Logo"></a>
+            </div>
+            <!-- Our Menu Items div  -->
+            <div class=" bg-red600 pt-2 font-semibold">
+                <ul class="flex space-x-6 text-yellow-500">
+                    <div class="flex space-x-1">
+                        <li class=""><a href="#">Study Materials</a></li>
+                        <ion-icon name="caret-down-circle-sharp" class="h-6 w-6 rounded-full"></ion-icon>
+                    </div>
+                    <li><a href="/Menu_Pages/Byjus_Answer.html">BYJU's Answer</a></li>
+                    <div class="flex space-x-1">
+                        <li><a href="#">Scholership</a></li>
+                        <ion-icon name="caret-down-circle-sharp" class="h-6 w-6 rounded-full"></ion-icon>
+                    </div>
+                    <li><a href="#">BTC</a></li>
+                    <li><a href="#">Buy Courses</a></li>
+                    <li><a href="#">Success Stories</a></li>
+                </ul>
+            </div>
+            <!-- Our buttons div  -->
+            <div class="flex space-x-2">
+                <button class="py-1 px-4 border-2 border-yellow-500 text-yellow-400 rounded-xl">Login</button>
+                <ion-icon name="call-outline" class=" p-3 bg-yellow-500 rounded-full"></ion-icon>
+                <ion-icon name="search-outline" class="p-3 bg-yellow-500 rounded-full"></ion-icon>
+            </div>
+        </nav>
+        <div class="sponser flex justify-center pt-3"><img src="/Images/hero-section-sponsors.png" class="rounded-xl"
+                alt=""></div>
+        <div class="wrapper-lft-rigt gap-2 flex h-[80vh] mt-5 pt-10">
+
+            <div class="left-img h-[30rem] bg-blue700">
+                <img src="/Images/hero-section-shahrukh-img.png" alt="">
+            </div>
+            <div class="right-bookClass h-[29rem] w-[30rem] py-4 px-5 rounded-2xl bg-white">
+                <!-- Our Info Text  -->
+                <div class="text-center space-y-2">
+                    <h2 class="text-2xl font-semibold">Book Your Free Class</h2>
+                    <p>Learn From India's Best Teachers</p>
+                    <p class="text-xl font-semibold">Enter Your Details</p>
+                </div>
+                <!-- Our Input Div  -->
+                <div class="flex flex-col pt-5 space-y-5">
+                    <input type="text" class="py-2 px-3 border-2 border-slate-400 rounded-xl" name="" id=""
+                        placeholder="Enter Name of Your Child" required>
+
+                    <div class="flex">
+                        <input type="text" class="py-2 pr-32 pl-4 border-2 border-slate-400 rounded-l-xl" name="" id=""
+                            placeholder="Enter Your Mobile Number">
+                        <button
+                            class="bg-gradient-to-r from-orange-400 to-red-500 py-2 px-5 rounded-r-xl text-white">Send
+                            OTP</button>
+                    </div>
+
+                    <input type="email" class="py-2 px-3 border-2 border-slate-400 rounded-xl" name="" id=""
+                        placeholder="Enter Your Email">
+
+                    <input type="number" class="py-2 px-3 border-2 border-slate-400 rounded-xl" name="" id=""
+                        placeholder="Enter Name of Your Child">
+                    <button
+                        class="bg-gradient-to-r from-orange-400 to-red-500 py-3 rounded-xl text-2xl text-white font-bold hover:bg-violet-600">Schedule
+                        a Free
+                        Class</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Our After Section of Hero Section  -->
+    <section class="Hero-Section-2 h-[230vh] bg-white">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#813588" fill-opacity="1"
+                d="M0,0L60,37.3C120,75,240,149,360,160C480,171,600,117,720,101.3C840,85,960,107,1080,112C1200,117,1320,107,1380,101.3L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+        <!-- This is our Text Div Info Heading and Paragraph  -->
+        <div class="text-center flex justify-center">
+            <div class="space-y-2">
+                <h1 class="text-2xl w-96 text-center ml-12 font-semibold">Comprehensive learning programs & classes for
+                    all students</h1>
+                <p class="text-lg w-[30rem] text-center font-[400]">Become lifelong learners with India's best teachers,
+                    engaging video lessons and personalised learning journeys</p>
+            </div>
+        </div>
+
+        <!-- 👉 ☝First div of the class 4 -10th - 01(DIV) -->
+        <div class="flex justify-center bg-red800 pt-8">
+            <div class="bg-gray-200 h-[21.5rem] w-[70rem] rounded-xl shadow-2xl shadow-purple-500">
+                <!-- Our Class 4-10 Infor bg  -->
+                <div class="text-center flex justify-center">
+                    <h1 class="bg-violet-600 py-1 px-5 rounded-b-xl w-36 text-white font-semibold text-lg">Classes 4-10
+                    </h1>
+                </div>
+                <!-- Our Innder Div Holds Two Div's : Left and Rifht div -->
+                <div class="flex justify-center gap-8 h-56 mt-3">
+                    <!-- Left div inside the main div  -->
+                    <div class="left-two-div flex gap-10 pl-10 ">
+                        <div class="pt-3"><img src="/Images/Learning Programme Div Images/div-1-img1.png"
+                                class="h-56 w-60" alt="img1"></div>
+
+                        <div class=" w-60 text-center">
+
+                            <div class=" flex justify-center flex-col pr-1 pt-6 space-y-2">
+                                <img src="/Images/Learning Programme Div Images/div-1-img-2-logo.svg" class="h-[4.5rem]"
+                                    alt="img2">
+                                <p class="text-md">Personalised learning app to learn anytime, anywhere</p>
+                                <a href="#" class="font-semibold">Know More ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Vertical Ruler In between Two Div's  -->
+                    <div class="flex justify-start w-16 pt-10 pl-5">
+                        <div class="h-36 border-l-2 border-orange-500"></div>
+                    </div>
+                    <!-- Right Div Inside the Main Div  -->
+                    <div class="right-two-div flex gap-5">
+
+                        <div class="pl-3"><img src="/Images/Learning Programme Div Images/div-1-img-3.png" class="h-48"
+                                alt="img3">
+                        </div>
+
+                        <div class="w-64 text-center">
+                            <div class="flex justify-center flex-col px-4 pt-9 space-y-2">
+                                <div class="text-center flex justify-center">
+                                    <img src="/Images/Learning Programme Div Images/div-1-img-4-logo.png"
+                                        class=" h-[2.7rem]" alt="img4">
+                                </div>
+                                <p>Personalised online tutoring program with a unique two teacher model</p>
+                                <a href="#" class="font-semibold">Know More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Our Book Class Button  -->
+                <div class="button flex justify-center">
+                    <button
+                        class="py-4 px-7 bg-gradient-to-l from-red-500 to-orange-500 rounded-xl text-white font-semibold text-lg">Book
+                        a Free
+                        Class</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- 👉 ☝☝Second div of JEE-NEET - 02(DIV) -->
+        <div class="flex justify-center pt-10">
+            <div class="bg-gray-200 h-[21.5rem] w-[70rem] rounded-xl shadow-2xl shadow-purple-500">
+                <!-- Our Class 4-10 Infor bg  -->
+                <div class="text-center flex justify-center">
+                    <h1 class="bg-violet-600 py-1 px-5 rounded-b-xl w-36 text-white font-semibold text-lg">JEE/NEET
+                    </h1>
+                </div>
+                <!-- Our Innder Div Holds Two Div's : Left and Rifht div -->
+                <div class="flex justify-center gap-10 h-64 mt-3">
+                    <!-- Left div inside the main div  -->
+                    <div class="flex flex-col justify-center h-72 w-[24rem]">
+                        <div class="flex flex-col justify-center space-y-3">
+                            <div class="flex justify-center">
+                                <img src="/Images/Learning Programme Div Images/div-2-img-1.png" class="h-40 w-64"
+                                    alt="first Ima">
+                            </div>
+                            <p>Comprehensive learning program for JEE preparation</p>
+                            <div class="flex justify-center">
+                                <button
+                                    class="py-4 px-4 bg-gradient-to-l from-red-500 to-orange-500 rounded-xl text-white font-semibold text-lg w-44">Explore
+                                    JEE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Vertical Ruler In between Two Div's  -->
+                    <div class="flex flex-col">
+                        <img src="/Images/Learning Programme Div Images/div-2-img-2.png" class="h-28" alt="img">
+                        <div class=" flex justify-end w-[5.2rem] pt-9">
+                            <div class="h-24 border-l-2 border-orange-500 font-semibold"></div>
+                        </div>
+                    </div>
+                    <!-- Right Div Inside the Main Div  -->
+                    <div class=" flex flex-col justify-center  h-72">
+                        <div class="flex flex-col justify-center space-y-3">
+                            <div class="flex justify-center">
+                                <img src="/Images/Learning Programme Div Images/div-2-img-3.png" class="h-40 w-64"
+                                    alt="first Ima">
+                            </div>
+                            <p>Comprehensive learning program for JEE preparation</p>
+                            <div class="flex justify-center">
+                                <button
+                                    class="py-4 px-4 bg-gradient-to-l from-red-500 to-orange-500 rounded-xl text-white font-semibold text-lg w-44">Explore
+                                    JEE</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- 👉 ☝☝Third div of Class - IAS - 03(DIV) -->
+        <div class="flex justify-center pt-10">
+
+            <div class=" h-[21.5rem] flex justify-center w-[70rem] rounded-xl gap-7">
+                <!-- Left div inside the main div  -->
+                <div class="bg-gray-200 h-80 w-[34rem] rounded-xl shadow-2xl shadow-purple-500">
+                    <div class="flex justify-center">
+                        <h1 class="bg-violet-600 py-1 px-7 rounded-b-xl text-white font-semibold text-lg">Classes LGK -
+                            3</h1>
+                    </div>
+                    <div class="flex justify-center gap-5">
+                        <div class="flex justify-center pt-14"><img
+                                src="/Images/Learning Programme Div Images/div-3-img1.png" class="h-40" alt="img"></div>
+                        <div class=" pt-6 space-y-5"><img src="/Images/Learning Programme Div Images/div-3-img-1-2.svg"
+                                class="h-14 pl-5" alt="img">
+                            <p class="w-[10.8rem] text-center text-md">Specially crafted
+                                early learning program
+                                for young minds</p>
+
+                            <button
+                                class="py-3 px-4 bg-gradient-to-l from-red-500 to-orange-500 rounded-xl text-white font-semibold text-lg w-44">Explore
+                            </button>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Div Inside the Main Div  -->
+                <div class="bg-gray-200 h-80 w-[34rem] rounded-xl shadow-2xl shadow-purple-500">
+                    <div class="flex justify-center">
+                        <h1 class="bg-violet-600 py-1 px-16 rounded-b-xl text-white font-semibold text-lg">IAS</h1>
+                    </div>
+
+                    <div class="flex justify-center gap-8">
+                        <div class="flex justify-center pt-12"><img
+                                src="/Images/Learning Programme Div Images/div-3-img-2.png" class="h-52" alt="img">
+                        </div>
+                        <div class=" pt-8 space-y-6  flex justify-center flex-col"><img
+                                src="/Images/Learning Programme Div Images/div-3-img-2-2.svg" class="h-7 pl-5"
+                                alt="img">
+                            <p class="w-52 text-center">Personalised learning program
+                                for the leaders of tomorrow</p>
+
+                            <button
+                                class="ml-5 py-3 px-4 bg-gradient-to-l from-red-500 to-orange-500 rounded-xl text-white font-semibold text-lg w-44">Explore
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </section>
+
+    <!-- Advantage of Byju's Section  -->
+    <section class="byuj-advantage h-[80vh]">
+
+        <div class=" flex justify-center">
+            <h1 class="text-4xl font-semibold">Get the BYJU'S Advantages</h1>
+        </div>
+        <div class="wrapper-3div flex justify-center gap-20 h-[60vh] mt-10 px-10">
+
+            <div class="left flex flex-col space-y-4">
+                <img src="/Images/byju advantage images/div-1-img-1.png" class="h-80 w-80" alt="">
+                <p class="text-[1.6rem] font-[500] text-center w-72 pl-6">Conceptual clarity through visualisation</p>
+            </div>
+
+            <div class="middle flex flex-col space-y-4">
+                <img src="/Images/byju advantage images/div-2-img-2.png" class="h-80 w-80" alt="">
+                <p class="text-[1.6rem] font-[500] text-center w-72 pl-9">Personalised learning programs</p>
+            </div>
+
+            <div class="right flex flex-col space-y-4">
+                <img src="/Images/byju advantage images/div-3-img-3.png" class="h-80 w-80" alt="">
+                <p class="text-[1.6rem] font-[500] text-center w-72 pl-6">Unmatched individual attention</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Students and Parents Section  -->
+    <section class="h-[50vh] pt-14">
+
+        <div class=" flex justify-center">
+            <h1 class="text-4xl font-bold text-violet-800">Our Students & Parents Love towards us</h1>
+        </div>
+        <div class="wrapper-3div flex justify-center h-[60vh] mt-10 px-10 pt-8">
+
+            <div class="left flex flex-col">
+                <img src="/Images/Student Parant Section Icons/download-icon.svg" class="h-12 w-80" alt="">
+                <p class="text-[2rem] text-center text-violet-800 font-bold w-72 pl-9">150+ Million</p>
+                <p class="text-center">Downloads</p>
+            </div>
+
+            <div class="middle flex flex-col">
+                <img src="/Images/Student Parant Section Icons/start-icon.svg" class="h-12 w-80" alt="">
+                <p class="text-[2rem] text-center text-violet-800 font-bold w-72 pl-9">4.7+ Star</p>
+                <p class="text-center">App Rating</p>
+            </div>
+
+            <div class="right flex flex-col">
+                <img src="/Images/Student Parant Section Icons/location-icon.svg" class="h-12 w-80" alt="">
+                <p class="text-[2rem] text-center text-violet-800 font-bold w-72 pl-9">1701+ Cities</p>
+                <p class="text-center">Worldwide</p>
+            </div>
+            <div class="right flex flex-col">
+                <img src="/Images/Student Parant Section Icons/timer-icon.svg" class="h-12 w-80" alt="">
+                <p class="text-[2rem] text-center text-violet-800 font-bold w-72 pl-9">71 mins avg.</p>
+                <p class="text-center">Time Spent Daily</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Our Top Review Section By Parents  -->
+    <section class="Top Reviews h-[90vh]">
+        <div class=" flex justify-center pt-5">
+            <h1 class="text-3xl font-bold text-violet-800">Top Reviews By Happy Students & Their Parents</h1>
+        </div>
+        <div class=" flex justify-around px-10 h-[60vh] pt-24">
+            <!-- First Profile Div  -->
+            <div class="flex flex-col text-center space-y-3">
+                <img src="/Images/Parent Review Images/Img-1.png" class="h-44 w-60 pl-16" alt="">
+                <p class="w-72 text-center">BYJU'S is the best app for my daughter to strenghthen her scrience basics.
+                </p>
+                <h1 class="font-bold text-violet-800 text-lg">Mother Of Devananda</h1>
+                <p>Class 6 | Banglore</p>
+            </div>
+
+            <!-- Second Profile Div  -->
+            <div class="flex flex-col text-center space-y-3">
+                <img src="/Images/Parent Review Images/Img-2.png" class="h-44 w-48" alt="">
+                <p class="w-48 text-center">My son understand Math better with BYJU'S</p>
+                <h1 class="font-bold text-violet-800 text-lg">Father Of Sauradip</h1>
+                <p>Class 6 | Kolkata</p>
+            </div>
+
+            <!-- Third Profile Div  -->
+            <div class="flex flex-col text-center space-y-3">
+                <img src="/Images/Parent Review Images/Img-3.png" class="h-44 w-60 pl-14" alt="">
+                <p class="w-72 text-center">BYJU'S helped me understand the concept through Real-Life examples.</p>
+                <h1 class="font-bold text-violet-800 text-lg">Suraj Peela</h1>
+                <p>Class 11 | Hyderabad</p>
+            </div>
+
+            <!-- Fourth Profile Div  -->
+            <div class="flex flex-col text-center space-y-3">
+                <img src="/Images/Parent Review Images/Img-4.png" class="h-44 w-52 pl-8" alt="">
+                <p class="w-60 text-center">BYJU'S helped manav pick up his learing pace in Science. </p>
+                <h1 class="font-bold text-violet-800 text-lg">Father Of Manav</h1>
+                <p>Class 9 | Banglore</p>
+            </div>
+
+            <!-- Fourth Profile Div  -->
+            <div class="flex flex-col text-center space-y-3">
+                <img src="/Images/Parent Review Images/Img-5.png" class="h-44 w-[16.8rem] pl-12" alt="">
+                <p class="w-[18.8rem] text-center">BYJU'S videos have helped me understand Math better and be confident.
+                </p>
+                <h1 class="font-bold text-violet-800 text-lg">Harshita</h1>
+                <p>Class 4 | Mumbai</p>
+            </div>
+        </div>
+        <div class="mt-10 pt-6 flex justify-center">
+            <button
+                class="py-3 px-8 bg-gradient-to-r from-violet-500 to-blue-500 rounded-3xl text-white font-bold hover:shadow-xl shadow-violet-300">1000's
+                of Reviews By Happy Students --> </button>
+        </div>
+    </section>
+
+    <!-- Our Learning Tree Section  -->
+    <Section class="Learning-Tree-Section h-[120vh]">
+
+        <!-- The Learning tree image and the para -->
+        <div class="flex justify-center mt-5"><img src="/Images/Learning Tree Section Images/learning-tree-images.jpg"
+                class="h-24" alt=""></div>
+        <div class="flex justify-center pl-5 text-center pt-3">
+            <p class="w-[32rem] text-2xl font-semibold">A student's go-to blog for the latest stories, discoveries, fun
+                activities, exam tips, and more.</p>
+        </div>
+
+        <!-- Inner div that holder/wrapped up 5 div inside  -->
+        <div class="wrapper-5-div flex justify-around px-24 mt-12 gap-7 h-[60vh]">
+
+            <div class="px-4 py-4 space-y-2 bg-gray-100 rounded-xl shadow-xl shadow-orange-400">
+                <img src="/Images/Learning Tree Section Images/div5-img5.jpg" class="rounded-xl" alt="">
+                <h2 class="text-lg font-bold text-violet-500">Education For All</h2>
+                <p class="font-semibold text-md w-60">Supporting Childrens Dreams and Aspirations: ARCH Development
+                    Foundation </p>
+                <div class="mt-5">
+                    <a href="" class="underline font-bold text-violet-500 text-md">Read More</a>
+                </div>
+            </div>
+
+            <div class="px-4 py-4 space-y-2 bg-gray-100 rounded-xl shadow-xl shadow-orange-400">
+                <img src="/Images/Learning Tree Section Images/div6-img6.jpg" class="h-[15.7rem] rounded-xl" alt="">
+                <h2 class="text-lg font-bold text-violet-500">Exam Tips</h2>
+                <p class="font-semibold text-md w-56">Mistakes To Aviod While Preparing for Competitive Exams </p>
+                <div class="mt-5">
+                    <a href="" class="underline font-bold text-violet-500 text-md">Read More</a>
+                </div>
+            </div>
+
+            <div class="px-4 py-4 space-y-2 bg-gray-100 rounded-xl shadow-xl shadow-orange-400">
+                <img src="/Images/Learning Tree Section Images/div1-img1.jpeg" class="h-[15.7rem] rounded-xl" alt="">
+                <h2 class="text-lg font-bold text-violet-500">Visual Story</h2>
+                <p class="font-semibold text-md w-56">National Wildlife Day Quiz : That Bring New Fun Into The Education
+                </p>
+                <div class="mt-5">
+                    <a href="" class="underline font-bold text-violet-500 text-md">Read More</a>
+                </div>
+            </div>
+
+            <div class="px-4 py-4 space-y-2 bg-gray-100 rounded-xl shadow-xl shadow-orange-400">
+                <img src="/Images/Learning Tree Section Images/div4-img4.jpg" class="rounded-xl" alt="">
+                <h2 class="text-lg font-bold text-violet-500">Parent Plus</h2>
+                <p class="font-semibold text-md w-60">Presenting The All New Family Handbook! Which Help Your Child To
+                    Get Better </p>
+                <div class="mt-5">
+                    <a href="" class="underline font-bold text-violet-500 text-md">Read More</a>
+                </div>
+            </div>
+
+            <div class=" px-4 py-4 space-y-2 bg-gray-100 rounded-xl shadow-xl shadow-orange-400">
+                <img src="/Images/Learning Tree Section Images/div3-img3.jpg" class="rounded-xl" alt="">
+                <h2 class="text-lg font-bold text-violet-500">Did You Know?</h2>
+                <p class="font-semibold text-md w-60">Meet Mercury - The Quicksilver That Defines Rules All Our The
+                    Elements </p>
+                <div class="mt-5">
+                    <a href="" class="underline font-bold text-violet-500 text-md">Read More</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- Our Explore Button  -->
+        <div class="flex justify-center pt-12">
+            <button
+                class="bg-gradient-to-l from-red-600 to-orange-500 py-3 px-10 text-xl font-semibold text-white rounded-lg">Explore
+                All</button>
+        </div>
+
+        <div class="flex justify-center pt-8">
+            <img src="/Images/kid-safe-img.svg" class="h-12" alt="">
+        </div>
+    </Section>
+
+    <!-- Our Ionic Icons Script....  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+<footer class="h-[100vh] flex justify-center gap-10 pt-8 px-2" style=" background-color: #813588; ">
+
+    <!-- Courses  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">COURSES</h2>
+        <div class="space-y-2 text-white text-sm">
+            <p>CBSC</p>
+            <p>ISCE</p>
+            <p>CAT</p>
+            <p>IAS</p>
+            <p>JEE</p>
+            <p>NEET</p>
+            <p>COMMERCE</p>
+            <p>JEE MAIN</p>
+            <p>NCERT</p>
+            <p>JEE ADVANCED</p>
+            <p>UPSC Prelims Question Paper</p>
+            <p>UPSC Prelims Answer Key</p>
+            <p>IAS Coaching</p>
+            <p>CBSE Sample Pepers</p>
+            <p>CBSE Question Pepers</p>
+            <p>BYJU'S Summer Camp</p>
+        </div>
+    </div>
+
+    <!-- Exams  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">EXAMS</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>CAT Exam</p>
+            <p>GAT Exam</p>
+            <p>IAS Exam</p>
+            <p>UPSC Exam</p>
+            <p>UPSC Syllabus</p>
+            <p>UPSC 2023</p>
+            <p>UPSC 2022</p>
+            <p>Bank Exam</p>
+            <p>Government Exam</p>
+            <p>Education News</p>
+        </div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">CLASSES</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>Kids Learning</p>
+            <p>Class 1st - Class 3rd</p>
+            <p>Class 4th - Class 5th</p>
+            <p>Class 6th - Class 10th</p>
+            <p>Class 11th - Class 12th</p>
+        </div>
+    </div>
+
+    <!-- Exame Preparation and RESOURCES  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">EXAM PREPARATION</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>Free CAT Prep</p>
+            <p>Free IAS Prep</p>
+            <p>Maths</p>
+            <p>Physics</p>
+            <p>Chemistry</p>
+            <p>Biology</p>
+            <p>JEE Main 2022</p>
+            <p class="w-48">JEE Main 2022 Question Papers with Answers</p>
+            <p class="w-48">JEE Advanced 2022 Question Paper with Answers</p>
+            <p>NEET 2022 Answer Key</p>
+            <p>BYJU'S Exam Prep</p>
+        </div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">RESOURCES</h2>
+        <div class="space-y-2 text-white text-sm">
+            <p>Worksheets</p>
+            <p>BYJU'S Answer</p>
+            <p>DSSL</p>
+            <p>Home Tuition</p>
+            <p>All Products</p>
+            <p>Calculators</p>
+            <p>Formulas</p>
+        </div>
+
+    </div>
+
+    <!-- About the Company  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">COMPANY</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Investors</p>
+            <p>Career</p>
+            <p>BYUJU'S In Media</p>
+            <p class="w-48">Soccial Initative: Education For All</p>
+            <p>BYJU'S App</p>
+            <p class="w-48">FAQ</p>
+            <p class="w-48">Support</p>
+            <p>Blog</p>
+            <p class="w-48">Student Stories: The Learning Tree</p>
+            <p class="w-48">Faces of BYJU'S: Life At BYJU'S</p>
+            <p>BYJU'S Give</p>
+        </div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">FOLLOW US</h2>
+        <div class="flex space-x-3">
+            <ion-icon name="logo-facebook" class="text-white h-7 w-7"></ion-icon>
+            <ion-icon name="logo-linkedin" class="text-white h-7 w-7"></ion-icon>
+        </div>
+    </div>
+
+    <!-- Free Textbook Solutions -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-sm pb-4">FREE TEXTBOOK SOLUTIONS</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>NCERT Solutions</p>
+            <p>NCERT Exemplar</p>
+            <p>NCERT Solutions for Class 6</p>
+            <p>NCERT Solutions for Class 7</p>
+            <p>NCERT Solutions for Class 8</p>
+            <p>NCERT Solutions for Class 9</p>
+            <p>NCERT Solutions for Class 10</p>
+            <p>NCERT Solutions for Class 11</p>
+            <p>NCERT Solutions for Class 11 English</p>
+            <p>NCERT Solutions for Class 12 English</p>
+            <p>NCERT Solutions for Class 12</p>
+            <p>RD Sharma Solutions</p>
+            <p>RD Sharma Class 10 Solutions</p>
+            <p>RS Agrawal Solutions</p>
+            <p>ICSE Selina Solutions</p>
+        </div>
+    </div>
+    <!-- State Borad Div  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-sm pb-4">STATE BOARDS</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>Mahrastra</p>
+            <p>Gujrat</p>
+            <p>Tamil Nadu</p>
+            <p>Karnataka</p>
+            <p>Kerala</p>
+            <p>Andhra Pradesh</p>
+            <p>Telangana</p>
+            <p>Utter Pradesh</p>
+            <p>Bihar</p>
+            <p>Rajasthan</p>
+            <p>Madhya Pradesh</p>
+            <p>West Bengal</p>
+
+        </div>
+    </div>
+
+</footer>
+
+</html>

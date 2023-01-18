@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <title>BYJU : Clone Website</title>
+</head>
+
+<body>
+    <!-- Our Hero Section  -->
+    <section class="Hero h-[37vh]">
+        <nav class="py-6 px-36 flex justify-around space-x-4" style="background-color: #813588;">
+            <!-- Our logo div  -->
+            <div>
+                <a href="/Index.html"><img src="/Images/navbar-logo.svg" class="h-[2.35rem]" alt="Logo"></a>
+            </div>
+            <!-- Our Menu Items div  -->
+            <div class=" bg-red600 pt-2 font-semibold">
+                <ul class="flex space-x-6 text-yellow-500">
+                    <div class="flex space-x-1">
+                        <li class=""><a href="#">Study Materials</a></li>
+                        <ion-icon name="caret-down-circle-sharp" class="h-6 w-6 rounded-full"></ion-icon>
+                    </div>
+                    <li><a href="#">BYJU's Answer</a></li>
+                    <div class="flex space-x-1">
+                        <li><a href="#">Scholership</a></li>
+                        <ion-icon name="caret-down-circle-sharp" class="h-6 w-6 rounded-full"></ion-icon>
+                    </div>
+                    <li><a href="#">BTC</a></li>
+                    <li><a href="#">Buy Courses</a></li>
+                    <li><a href="#">Success Stories</a></li>
+                </ul>
+            </div>
+            <!-- Our buttons div  -->
+            <div class="flex space-x-2">
+                <button class="py-1 px-4 border-2 border-yellow-500 text-yellow-400 rounded-xl">Login</button>
+                <ion-icon name="call-outline" class=" p-3 bg-yellow-500 rounded-full"></ion-icon>
+                <ion-icon name="search-outline" class="p-3 bg-yellow-500 rounded-full"></ion-icon>
+            </div>
+        </nav>
+        <div class="sponser flex justify-center pt-3"><img src="/Images/Byjus_Answer Images/Hero_Img_Horizontal.webp"
+                class="rounded-xl" alt=""></div>
+
+
+    </section>
+    <!-- Ask Question Div  -->
+    <section class=" h-[180vh]">
+
+        <!-- Ask Question Segment With Seach -->
+        <div class="wrapprdiv flex flex-col justify-center space-y-5">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold">Ask a question. Get a verified answer. </h1>
+            </div>
+            <div class="flex justify-center">
+                <div class="flex justify-center py-2 w-[43rem] rounded-3xl shadow-xl shadow-slate-400">
+                    <div class="px-6"><input type="text" name="" class="px-5 text-lg p-3 w-[30rem] rounded-2xl" id=""
+                            placeholder="Find Solution Here"></div>
+                    <div class="flex w-44 space-x-5 pt-3">
+                        <ion-icon name="cloud-upload-outline" class="h-7 w-7"></ion-icon>
+                        <ion-icon name="image-outline" class="h-7 w-7"></ion-icon>
+                        <ion-icon name="search-outline" class="h-7 w-7"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex justify-center h-52 mt-24 gap-9">
+
+            <div class="flex justify-center flex-col text-center rounded-xl shadow-xl shadow-violet-600">
+                <div class="flex justify-center mb-3">
+                    <ion-icon name="file-tray-stacked-outline" class="h-12 w-12"></ion-icon>
+                </div>
+                <h2 class="text-lg font-semibold">35 Lakh Questions</h2>
+                <p class="w-72">View answers to all your questions without any hassle</p>
+            </div>
+
+            <div class="flex justify-center flex-col text-center rounded-xl shadow-xl shadow-violet-600 px-5">
+                <div class="flex justify-center mb-3">
+                    <ion-icon name="shield-checkmark-outline" class="h-12 w-12"></ion-icon>
+                </div>
+
+                <h2 class="text-lg font-semibold">Verified Answer</h2>
+                <p class="w-64">Get expert verified answers so you don’t waste time</p>
+            </div>
+
+            <div class="flex justify-center flex-col text-center rounded-xl shadow-xl shadow-violet-600">
+                <div class="flex justify-center mb-3">
+                    <ion-icon name="book-outline" class="h-12 w-12"></ion-icon>
+                </div>
+
+                <h2 class="text-lg font-semibold">500+ TextBook Solutions</h2>
+                <p class="w-72">Browse questions from all popular textbooks of your grade</p>
+            </div>
+
+        </div>
+
+       
+        <div class="flex justify-center h-80 pt-28 gap-16">
+
+            <div class="flex justify-center flex-col text-center rounded-xl space-y-3 shadow-2xl shadow-purple-400 h-60 w-60">
+                <img src="/Images/Byjus_Answer Images/textbook_img1.svg" class="h-36" alt="">
+                <h2 class="text-2xl font-semibold">TextBook</h2>
+            </div>
+
+            <div class="flex justify-center flex-col text-center rounded-xl space-y-3 shadow-2xl shadow-purple-400 h-60 w-60">
+                <img src="/Images/Byjus_Answer Images/question_paper_img2.svg" class="h-36" alt="">
+                <h2 class="text-2xl font-semibold">Question Paper</h2>
+            </div>
+
+            <div class="flex justify-center flex-col text-center rounded-xl space-y-3 shadow-2xl shadow-purple-400 h-60 w-60">
+                <div class="flex justify-center pb-2">
+                <img src="/Images/Byjus_Answer Images/math_img3.webp" class="h-32 w-24" alt="">
+            </div>
+                <h2 class="text-2xl font-semibold">Math Solver</h2>
+            </div>
+
+        </div>
+
+        <div class="flex justify-center  mt-28">
+            <div><img src="/Images/Byjus_Answer Images/download_app_img.webp" alt=""></div>
+        </div>
+    </section>
+
+    <!-- Our Ionic Icons Script....  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+<footer class="h-[100vh] flex justify-center gap-10 pt-8 px-2" style=" background-color: #813588; ">
+
+    <!-- Courses  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">COURSES</h2>
+        <div class="space-y-2 text-white text-sm">
+            <p>CBSC</p>
+            <p>ISCE</p>
+            <p>CAT</p>
+            <p>IAS</p>
+            <p>JEE</p>
+            <p>NEET</p>
+            <p>COMMERCE</p>
+            <p>JEE MAIN</p>
+            <p>NCERT</p>
+            <p>JEE ADVANCED</p>
+            <p>UPSC Prelims Question Paper</p>
+            <p>UPSC Prelims Answer Key</p>
+            <p>IAS Coaching</p>
+            <p>CBSE Sample Pepers</p>
+            <p>CBSE Question Pepers</p>
+            <p>BYJU'S Summer Camp</p>
+        </div>
+    </div>
+
+    <!-- Exams  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">EXAMS</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>CAT Exam</p>
+            <p>GAT Exam</p>
+            <p>IAS Exam</p>
+            <p>UPSC Exam</p>
+            <p>UPSC Syllabus</p>
+            <p>UPSC 2023</p>
+            <p>UPSC 2022</p>
+            <p>Bank Exam</p>
+            <p>Government Exam</p>
+            <p>Education News</p>
+        </div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">CLASSES</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>Kids Learning</p>
+            <p>Class 1st - Class 3rd</p>
+            <p>Class 4th - Class 5th</p>
+            <p>Class 6th - Class 10th</p>
+            <p>Class 11th - Class 12th</p>
+        </div>
+    </div>
+
+    <!-- Exame Preparation and RESOURCES  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">EXAM PREPARATION</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>Free CAT Prep</p>
+            <p>Free IAS Prep</p>
+            <p>Maths</p>
+            <p>Physics</p>
+            <p>Chemistry</p>
+            <p>Biology</p>
+        </div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">RESOURCES</h2>
+        <div class="space-y-2 text-white text-sm">
+            <p>BYJU'S Answer</p>
+            <p>Blog</p>
+            <p>Videos</p>
+            <p>All Products</p>
+            <p>DSSL</p>
+            <p>Home Tuition</p>
+        </div>
+
+    </div>
+
+    <!-- About the Company  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">COMPANY</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Investors</p>
+            <p>Career</p>
+            <p>BYUJU'S In Media</p>
+            <p class="w-48">Soccial Initative: Education For All</p>
+            <p>BYJU'S App</p>
+            <p class="w-48">FAQ</p>
+            <p class="w-48">Support</p>
+            <p>Blog</p>
+            <p class="w-48">Student Stories: The Learning Tree</p>
+            <p class="w-48">Faces of BYJU'S: Life At BYJU'S</p>
+            <p>BYJU'S Give</p>
+        </div>
+        <h2 class="text-yellow-400 font-bold text-md pb-4">FOLLOW US</h2>
+        <div class="flex space-x-3">
+            <ion-icon name="logo-facebook" class="text-white h-7 w-7"></ion-icon>
+            <ion-icon name="logo-linkedin" class="text-white h-7 w-7"></ion-icon>
+        </div>
+    </div>
+
+    <!-- Free Textbook Solutions -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-sm pb-4">FREE TEXTBOOK SOLUTIONS</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>NCERT Solutions</p>
+            <p>NCERT Exemplar</p>
+            <p>NCERT Solutions for Class 6</p>
+            <p>NCERT Solutions for Class 7</p>
+            <p>NCERT Solutions for Class 8</p>
+            <p>NCERT Solutions for Class 9</p>
+            <p>NCERT Solutions for Class 10</p>
+            <p>NCERT Solutions for Class 11</p>
+            <p>NCERT Solutions for Class 11 English</p>
+            <p>NCERT Solutions for Class 12 English</p>
+            <p>NCERT Solutions for Class 12</p>
+            <p>RD Sharma Solutions</p>
+            <p>RD Sharma Class 10 Solutions</p>
+            <p>RS Agrawal Solutions</p>
+            <p>ICSE Selina Solutions</p>
+        </div>
+    </div>
+    <!-- State Borad Div  -->
+    <div>
+        <h2 class="text-yellow-400 font-bold text-sm pb-4">STATE BOARDS</h2>
+        <div class="space-y-2 text-white mb-8 text-sm">
+            <p>Mahrastra</p>
+            <p>Gujrat</p>
+            <p>Tamil Nadu</p>
+            <p>Karnataka</p>
+            <p>Kerala</p>
+            <p>Andhra Pradesh</p>
+            <p>Telangana</p>
+            <p>Utter Pradesh</p>
+            <p>Bihar</p>
+            <p>Rajasthan</p>
+            <p>Madhya Pradesh</p>
+            <p>West Bengal</p>
+
+        </div>
+    </div>
+
+</footer>
+
+</html>
